@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
     title: 'Gobler\'s blog',
-    description: 'The minimalist blog theme',
+    description: 'Gobler\'s blog',
 
     image: {
       src: '/social-card-preview.png',
@@ -13,8 +13,8 @@ export default defineAppConfig({
     header: {
       position: 'left', // possible value are : | 'left' | 'center' | 'right'
       logo: {
-        path: '/logo.svg', // path of the logo
-        pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
+        path: '/logo.png', // path of the logo
+        pathDark: '/logo-dark.png', // path of the logo in dark mode, leave this empty if you want to use the same logo
         alt: 'Gobler\'s Blog' // alt of the logo
       }
     },
